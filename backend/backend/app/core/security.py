@@ -1,10 +1,7 @@
 from passlib.context import CryptContext
 from datetime import datetime, timedelta
 from jose import jwt
-from fastapi.security import OAuth2PasswordBearer
-
-oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/auth/login")
-
+#from app.core.config import SECRET_KEY, ALGORITHM, ACCESS_TOKEN_EXPIRE_MINUTES
 SECRET_KEY = "CHANGE_ME_SECRET_KEY"
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 60 * 24

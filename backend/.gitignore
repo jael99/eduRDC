@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Environments
+.env
+venv/
+env/
+.venv/
+.idea/
+.vscode/
+
+# Database
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# Uvicorn / FastAPI
+reload/
+*.pid
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
