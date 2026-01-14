@@ -1,17 +1,31 @@
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
+*.pyc
 
-# Environnements
+# Environments
 .env
-.venv
 venv/
+env/
+.venv/
+.idea/
+.vscode/
 
-# SQLite
+# Database
 *.db
+*.sqlite3
 
-# OS
+# Logs
+*.log
+
+# Uvicorn / FastAPI
+reload/
+*.pid
+
+# MacOS
 .DS_Store
+
+# Windows
 Thumbs.db
